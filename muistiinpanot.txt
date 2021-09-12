@@ -1,0 +1,46 @@
+# WEB tekniikat
+
+
+## 1
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/html/html_intro.asp
+https://www.w3schools.com/html/html_editors.asp
+https://www.w3schools.com/html/html_basic.asp
+https://www.w3schools.com/html/html_elements.asp
+https://www.w3schools.com/html/html_attributes.asp
+https://www.w3schools.com/html/html_headings.asp
+https://www.w3schools.com/html/html_paragraphs.asp
+https://www.w3schools.com/html/html_formatting.asp
+https://www.w3schools.com/html/html_links.asp
+https://www.w3schools.com/html/html_lists.asp
+
+
+
+
+## 2
+
+Linkit 
+https://www.w3schools.com/html/html_styles.asp
+https://www.w3schools.com/html/html_formatting.asp
+https://www.w3schools.com/html/html_comments.asp
+https://www.w3schools.com/html/html_css.asp
+https://www.w3schools.com/html/html_links.asp
+https://www.w3schools.com/html/html_images.asp
+https://www.w3schools.com/html/html_tables.asp (palautus)
+
+https://www.w3schools.com/colors/colors_picker.asp (color picker)
+
+https://www.tablesgenerator.com/html_tables (table generator)
+
+
+
+HArjoitustyö 
+
+Synopsis on tiivistelmä tai yleiskuvaus esimerkiksi kuvallisesta tai kirjallisesta teoksesta.
+Synopsis pyrkii kuvailemaan teoksen sisältöä ja sen tuotantoa vastaamalla muun muassa kysymyksiin miksi, mitä, kenelle ja miten.
+Synopsis tulee kreikan kielen sanoista συν (syn, ”yhdessä”) ja οψις (opsis, ”näkeminen”). 
+
+Html, 
+synopsis, rakennekaavio
+Dokumentointi
+
