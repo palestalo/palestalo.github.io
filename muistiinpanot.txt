@@ -1,6 +1,5 @@
 # WEB tekniikat
 
-
 ## 1
 https://www.w3schools.com/html/default.asp
 https://www.w3schools.com/html/html_intro.asp
@@ -13,9 +12,6 @@ https://www.w3schools.com/html/html_paragraphs.asp
 https://www.w3schools.com/html/html_formatting.asp
 https://www.w3schools.com/html/html_links.asp
 https://www.w3schools.com/html/html_lists.asp
-
-
-
 
 ## 2
 
@@ -32,9 +28,20 @@ https://www.w3schools.com/colors/colors_picker.asp (color picker)
 
 https://www.tablesgenerator.com/html_tables (table generator)
 
+linkin tyylit
+    a:link - a normal, unvisited link
+    a:visited - a link the user has visited
+    a:hover - a link when the user mouses over it
+    a:active - a link the moment it is clicked
+
+img {
+  border-radius: 50%;
+}
+https://www.w3schools.com/css/css3_images.asp
 
 
-HArjoitustyö 
+
+## Harjoitustyö 
 
 Synopsis on tiivistelmä tai yleiskuvaus esimerkiksi kuvallisesta tai kirjallisesta teoksesta.
 Synopsis pyrkii kuvailemaan teoksen sisältöä ja sen tuotantoa vastaamalla muun muassa kysymyksiin miksi, mitä, kenelle ja miten.
