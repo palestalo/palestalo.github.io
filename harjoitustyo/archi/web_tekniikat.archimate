@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="web_tekniikat" id="id-b2907aa50cbb40b48bd37eaa25731371" version="4.6.0">
+  <folder name="Strategy" id="id-033ad9ae12fd48b59300a69615af4d41" type="strategy"/>
+  <folder name="Business" id="id-061927584a2443d190deea037bf385a1" type="business"/>
+  <folder name="Application" id="id-29a226f2631c492aa74a06c93c04ac6a" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-55d199d7cbaa4a84b6299acad8e04dc8" type="technology"/>
+  <folder name="Motivation" id="id-eac19890d1114c09ad5aae52082cd450" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-2e78a37d24b7432ead5f8a4635247457" type="implementation_migration">
+    <element xsi:type="archimate:Plateau" name="Plateau" id="id-bdc4f7fdfcf94621b5e22025b26ad4aa"/>
+  </folder>
+  <folder name="Other" id="id-3ea32221ede945f1a414f1f80428fa4d" type="other"/>
+  <folder name="Relations" id="id-5bd6b3454647499786d17475d1d9519f" type="relations"/>
+  <folder name="Views" id="id-7d5ef6fa7a324b4489cc6bcb3c3680f8" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-68fe2cbf78a94f72a833f964fd1784e7"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="web_tekniikat_suunnitelma" id="id-5331169c8ed3429a9e4f9e3e38a21a49">
+      <child xsi:type="archimate:DiagramObject" id="id-73534701ec8a446cb294d5a6d3aa56a1" archimateElement="id-bdc4f7fdfcf94621b5e22025b26ad4aa">
+        <bounds x="528" y="288" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
