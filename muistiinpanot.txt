@@ -15,7 +15,6 @@ https://www.w3schools.com/html/html_lists.asp
 
 ## 2
 
-Linkit 
 https://www.w3schools.com/html/html_styles.asp
 https://www.w3schools.com/html/html_formatting.asp
 https://www.w3schools.com/html/html_comments.asp
@@ -39,10 +38,104 @@ img {
 }
 https://www.w3schools.com/css/css3_images.asp
 
+## 3
+https://www.w3schools.com/html/html_id.asp
+https://www.w3schools.com/html/html_classes.asp
+
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+} </style>
+<div class="city">
+</div>
 
 
+https://www.w3schools.com/css/css_syntax.asp
+A CSS rule consists of a ! selector ! and a { declaration block }
+p {color: red; text-align: center;}
+
+https://www.w3schools.com/css/css_howto.asp
+
+https://www.w3schools.com/css/css_background.asp
+
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+    background (shorthand property)
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+
+https://www.w3schools.com/css/css_margin.asp
+
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+https://www.w3schools.com/css/css_padding.asp
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+https://www.w3schools.com/css/css_text.asp
+body {
+  background-color: lightgrey;
+  color: blue;
+}
+h1 {
+  background-color: black;
+  color: white;
+}
+
+https://www.w3schools.com/css/css_font.asp
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+</head>
+<body>
+<h1>CSS font-family</h1>
+<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+<p class="p2">This is a paragraph, shown in the Arial font.</p>
+<p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
+</body>
+</html>
+
+https://www.w3schools.com/css/css_table.asp
+https://www.w3schools.com/html/html5_syntax.asp
+
+http://validator.w3.org/ 
+
+# 4
+
+
+##########################
 ## Harjoitustyö 
-
+##########################
 Synopsis on tiivistelmä tai yleiskuvaus esimerkiksi kuvallisesta tai kirjallisesta teoksesta.
 Synopsis pyrkii kuvailemaan teoksen sisältöä ja sen tuotantoa vastaamalla muun muassa kysymyksiin miksi, mitä, kenelle ja miten.
 Synopsis tulee kreikan kielen sanoista συν (syn, ”yhdessä”) ja οψις (opsis, ”näkeminen”). 
