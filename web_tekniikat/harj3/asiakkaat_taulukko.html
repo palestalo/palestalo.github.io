@@ -4,14 +4,47 @@
 <meta charset="utf-8">
 <!-- <link rel="stylesheet" href="/styles/asiakaat_style.css">-->
 <title>Asiakkaat -taulukko</title>
+
 <style>
+<!-- 
+table#Asiakkaat tr, td {
+font-family: Helvetica, Arial, sans-serif;
+border: 1px solid black;
+border-collapse: collapse;
+}
 table#Asiakkaat tr:nth-child(even) {
 background-color: #eee;
 }
 table#Asiakkaat tr:nth-child(odd) {
 background-color:#fff;
 } 
+-->
 
+body {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
+
+#asiakkaat {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#asiakkaat td, #asiakkaat th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#asiakkaat tr:hover {background-color: #ddd;}
+#asiakkaat th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
 </style>
 
 </head>
@@ -58,7 +91,8 @@ background-color:#fff;
 </table>
 
 <h2>Muotoiltu Asiakaat-taulukko</h2>
-<table>
+
+<table id="asiakkaat">
 <thead>
   <tr>
     <th>Yritys</th>
@@ -104,6 +138,5 @@ Centro comercial Moctezuma 	Francisco Chang 	Mexico
 Ernst Handel 	Roland Mendel 	Austria
 Island Trading 	Helen Bennett 	UK
 -->
-
 </body>
 </html> 
