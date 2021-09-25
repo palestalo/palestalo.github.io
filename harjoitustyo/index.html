@@ -3,7 +3,6 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {background-color: white;center;font-family: Arial, Helvetica, sans-serif;text-align:center}
 .content {
@@ -27,34 +26,62 @@ img {
   width: 25%;
   border-radius: 8px;
 }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
 </style>
 
-<title>AA4313 Harj2</title>
+<title>AA4313</title>
 </head>
 <body>
 
-<div class="content">
-<h1>AA4313</h1>
-<center>
-<a href="https://palestalo.github.io/index.html">Etusivu</a> | <a href="https://palestalo.github.io/harrastukset.html">Harrastukset</a> | <a href="https://palestalo.github.io/portfolio.html">Portfolio</a><BR><BR>
-</center>
- <img src="https://palestalo.github.io/images/AA4313.jpg" alt="AA4313 kuvaa ei saa kopioida"> <BR>
-<h2>Esittely</h2>
-<p>
-Nimeni on Petri. 52v. Opiskelen JAMK oppilaitoksessa Avoimen Ammattikorkeakoulun Digiosaaja linjalla.
-Tavoite on saada suoritettua sen 30 op opinnot. 
-</p>
-<h2>Yhteystiedot</h2>
-<address>
-Written by <a href="AA4313@student.jamk.fi">S-postia AA4313:lle</a>.<br> 
-Osoite: x<br>
-https://palestalo.github.io<br>
-PL x, x<br>
-Suomi
-</address>
-<center><strong>Ei julkisia. Turvakielto.</strong></center>  <br>
-<center><a href = "mailto: AA4313@student.jamk.fi">S-postia AA4313:lle</a> | <a href="https://palestalo.github.io/">AA4313 Web</a></center>
+<ul>
+  <li><a class="active" href="#home">Alkuun</a></li>
+  <li><a href="#news"></a></li>
+  <li><a href="#it">IT Ennen kaikki oli paremmin</a></li>
+  <li><a href="#tietokannat">Tietokannat</a></li>
+  <li><a href="#html">HTML testausta</a></li>
+  <li><a href="#yhteys">Yhteystiedot</a></li>
+</ul>
 
-</div>
+<h2 id="it">IT Ennen kaikki oli paremmin</h2>
+Lomake ...
+
+<h2 id="tietokannat">Tietokannat</h2>
+Lomake ...
+<h2 id="html">>HTML testausta</h2>
+Lomake ...
+<h2 id="yhteys">Yhteystiedot</h2>
+Lomake ...
+
 </body>
 </html>  
