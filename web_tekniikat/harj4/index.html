@@ -15,7 +15,7 @@ text-align:center;
 
 #page {
 width:960px;
-height:660px;
+height:600px;
 background-color: bisque;
 margin: 0 auto; 
 border: 2px dashed grey;
@@ -57,17 +57,17 @@ height:30px;
 
 #content{
 background-color: light-blue;
-aling: center;
+text-align:center;
+/* height:350px; */
 }
 
 #content_left{
 border: 1px solid grey;
-  padding: 10px;
-  border-radius: 25px;
+padding: 10px;
+border-radius: 25px;
 width:318px;
-
 background-color: white;
-float:left;
+/*float:left; */
 text-aling:center;
 padding-top: 30px;
 }
@@ -75,17 +75,17 @@ padding-top: 30px;
 #content_right{
 border: 1px solid grey;
 width:318px;
-  padding: 10px;
-  border-radius: 25px;
+padding: 10px;
+border-radius: 25px;
 background-color: white;
-float:left;
+/* float:left; */
 /* text-aling:center; */
 padding-top: 30px;
 }
 
 #footer {
 width:960px;
-height:80px;
+height:50px;
 background-color: yellow;
 margin: 0 auto; 
 border: 2px dashed grey;
@@ -115,14 +115,14 @@ border: 2px dashed grey;
 </div>
 
 	<div id="content">
-	
+	<center>
 		<div id="content_left">
 		content1 tekstiä content1 tekstiäcontent1 tekstiäcontent1 tekstiäcontent1 tekstiäcontent1 tekstiäcontent1 tekstiäcontent1 tekstiä
 		</div>
 		<div id="content_right">
 		content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä 
 		</div>
-
+</center>
 	</div>
 	</div>
 </div>
@@ -147,7 +147,8 @@ border: 2px dashed grey;
     Testaa toimivuus.
     Jatka vastaavalla tavalla #content (alkaa taas vasemmalta:float), #content_left ja #content_right -osioden osalta ja määritä osioihin reunukset sekä taustaväri, jotta erottuvat taustasta. Kutsu koodissa tunnisteita.
     Kirjoita osioiden sisälle tekstiä, muista marginaalit riittäviksi.
-    Määritä viimeiseksi #footer (alkaa vasemmalta), jonka korkeus on 30px, taustaväri harmaa, teksti keskitettyjne. Kutsu koodissa tunnistetta. Muista, että content:in jälkeen float pitää resetoida, sillä muutoin sisältö valuu footerin päälle!
+    Määritä viimeiseksi #footer (alkaa vasemmalta), jonka korkeus on 30px, taustaväri harmaa, teksti keskitetty jne. Kutsu koodissa tunnistetta.
+    Muista, että content:in jälkeen float pitää resetoida, sillä muutoin sisältö valuu footerin päälle!
     Kirjoita tekstiä alatunnisteeseen.
     Tallenna index.html ja layout.css sekä testaa selaimilla.
     Tarkista validaattorilla virheet pois. Voit ajaa myös CSS-validaattorin.
@@ -159,8 +160,6 @@ border: 2px dashed grey;
 <img src="AA4313.jpg" alt="AA4313 kuvaa ei saa kopioida"> <BR>
 
 <p>
-Nimeni on Petri. 52v. Opiskelen JAMK oppilaitoksessa Avoimen Ammattikorkeakoulun Digiosaaja linjalla.
-Tavoite on saada suoritettua sen 30 op opinnot. 
 </p>
 
 -page
