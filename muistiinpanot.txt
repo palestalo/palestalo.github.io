@@ -1,5 +1,6 @@
 # WEB tekniikat
 
+###################
 ## 1
 https://www.w3schools.com/html/default.asp
 https://www.w3schools.com/html/html_intro.asp
@@ -13,6 +14,7 @@ https://www.w3schools.com/html/html_formatting.asp
 https://www.w3schools.com/html/html_links.asp
 https://www.w3schools.com/html/html_lists.asp
 
+###################
 ## 2
 
 https://www.w3schools.com/html/html_styles.asp
@@ -38,7 +40,9 @@ img {
 }
 https://www.w3schools.com/css/css3_images.asp
 
+###########
 ## 3
+
 https://www.w3schools.com/html/html_id.asp
 https://www.w3schools.com/html/html_classes.asp
 
@@ -53,8 +57,8 @@ https://www.w3schools.com/html/html_classes.asp
 <div class="city">
 </div>
 
-
 https://www.w3schools.com/css/css_syntax.asp
+
 A CSS rule consists of a ! selector ! and a { declaration block }
 p {color: red; text-align: center;}
 
@@ -130,6 +134,7 @@ https://www.w3schools.com/html/html5_syntax.asp
 
 http://validator.w3.org/ 
 
+###########################
 # 4
 
 https://www.w3schools.com/css/css_boxmodel.asp
@@ -139,9 +144,42 @@ https://www.w3schools.com/css/css_padding.asp
 https://www.w3schools.com/css/css_float.asp
 https://www.w3schools.com/css/css_overflow.asp
 
+https://student.labranet.jamk.fi/~nikar/materiaali/ttzc0400/harj4/index.html
 
+Tehtävä: toteuta alla olevan mallin mukainen Layout DIV-lohkoja käyttäen
 
+###########################
+# 5
 
+https://www.w3schools.com/css/css_display_visibility.asp
+https://www.w3schools.com/css/css_max-width.asp
+https://www.w3schools.com/css/css_inline-block.asp
+
+https://www.w3schools.com/css/css_navbar.asp       !!!!!!! menut html
+
+https://www.w3schools.com/css/css_font.asp
+
+https://www.w3schools.com/css/css_rwd_images.asp
+
+https://student.labranet.jamk.fi/~nikar/materiaali/ttzc0400/harj5/index.html'
+
+###########################
+# 6
+
+https://www.w3schools.com/html/html5_semantic_elements.asp
+https://www.w3schools.com/css/css3_fonts.asp
+
+https://student.labranet.jamk.fi/~nikar/materiaali/ttzc0400/harj6/
+
+###########################
+# 7
+
+https://www.w3schools.com/html/html_media.asp
+https://www.w3schools.com/html/html5_video.asp
+https://www.w3schools.com/html/html5_audio.asp
+https://www.w3schools.com/html/html_youtube.asp
+
+https://student.labranet.jamk.fi/~nikar/materiaali/ttzc0400/harj7/
 
 ##########################
 ## Harjoitustyö 

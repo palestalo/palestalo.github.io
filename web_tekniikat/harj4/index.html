@@ -1,100 +1,12 @@
-﻿<!-- versio 1-->
+﻿<!-- versio 1.1 -->
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
+<!-- tyylitiedosto puutteita. Aika ei riittänyt korjauksiin-->
+<link rel="stylesheet" href="./styles/AA4313.css"> 
 <title>AA4313 Harj4</title>
-
-<style>
-body {
-background-color: light-grey;
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-text-align:center;
-}
-
-#page {
-width:960px;
-height:600px;
-background-color: bisque;
-margin: 0 auto; 
-border: 2px dashed grey;
-}
-
-#header {
-width:960px;
-height:80px;
-background-color: azure;
-text-align:center;
-}
-
-#logo, #keski, #oikea{
-width:318px;
-height:50px;
-background-color: burlywood;
-float:left;
-text-aling:center;
-padding-top: 30px;
-}
-
-#logo {
-border: 1px solid grey;
-}
-
-#keski {
-border: 1px solid grey;
-}
-
-#oikea {
-border: 1px solid grey;
-}
-
-#menu {
-/*clear float !!!   */
-height:30px;
-
-}
-
-#content{
-background-color: light-blue;
-text-align:center;
-/* height:350px; */
-}
-
-#content_left{
-border: 1px solid grey;
-padding: 10px;
-border-radius: 25px;
-width:318px;
-background-color: white;
-/*float:left; */
-text-aling:center;
-padding-top: 30px;
-}
-
-#content_right{
-border: 1px solid grey;
-width:318px;
-padding: 10px;
-border-radius: 25px;
-background-color: white;
-/* float:left; */
-/* text-aling:center; */
-padding-top: 30px;
-}
-
-#footer {
-width:960px;
-height:50px;
-background-color: yellow;
-margin: 0 auto; 
-border: 2px dashed grey;
-}
-
-</style>
-
 </head>
-
 <body>
 <div id="page">
 
@@ -108,7 +20,7 @@ border: 2px dashed grey;
 	<div id="oikea">
 	oikea
 	</div>
-<div id=menu">
+<div id="menu">
 <center>
 <a href="index.html">Etusivu</a> | <a href="index.html">Harrastukset</a> | <a href="index.html">Portfolio</a> | <a href="index.html">Testaus</a><BR><BR>
 </center>
@@ -122,59 +34,14 @@ border: 2px dashed grey;
 		<div id="content_right">
 		content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä content2 tekstiä 
 		</div>
-</center>
+	</center>
 	</div>
 	</div>
 </div>
 
-<div id="footer">
-	footer
+	<div id="footer">
+	<a href="https://palestalo.github.io/">https://palestalo.github.io/</a>
 	</div>
-</div>
-<!--  
-    Määritä ensin body-osioon yleiset määritykset esim. kirjasinlaji esim. verdana, marginaalit 0:ksi, tekstin tasaus vasemmalle sekä taustaväri sopivaksi.
-    Katso ylempänä olevaa dokumentin rakennetta, mistä se muodostuu. Määritä layout-rakenteet tyylitunnisteina (ovat sivulla ainutkertaisia) #page (leveys 960px, marginaalit: ylä ja ala 0 vasen ja oikea auto, joka keskittää sivun ikkunaan).
-    Kutsu koodissa #page -tunnistetta <div id="page"> </div>
-    Määritä #header (leveys 960px, korkeus 80px sekä sopiva taustaväri), huomioi reunuksien ym. tarvitsema tila!
-    Kutsu koodissa tyylitunnisteita (esim. #header) vastaavassa järjestyksessä eli page -tunnisteen sisällä <div id="header"></div>
-    Tallenna sekä index.html sekä tyylitiedosto layout.css ja tarkista tulos selaimessa eri selaimilla
-    Määritä header:in sisälle kolme samankokoista lohkoa: #header_logo, #header_center, #header_right (voivat olla esim. 320px kukin osio). Muista laskea kaikki margin/padding vaikutukset yhteen, jotta ei mene 960px:n ylitse, koska muutoin tulee ylivuoto. Voit määrittää myös taustavärit, jotta näet lohkojen vaikutusalueet. Korjaa määrityksiä tarpeen mukaan.
-    Tee vastaavat kutsut koodiin <div id="header_logo></div> jne.
-    Määritä header -osioiden teksteille marginaaliksi esim. 20 px (kaikki suunnat) sekä vaalea väri ja kirjoita tekstiä header-osioden sisään (kts. yllä oleva kuva)
-    Määritä border-määritys (1px yhtenäinen musta) headerin eri osioiden osiolle ja huomaa, että sinun on korjattava osioiden leveyttä, jotta ne mahtuvat annettuun tilaan!
-    Tallenna sekä tyylitiedosto layout.css että index.html ja tarkista välillä kaikilla selaimilla toimivuus.
-    Määritä #menu:lle leveys 960px ja korkeus 30px. Huom: tämä alkaa uudelta riviltä (float:left) eli voit joutua resetoimaan edellisen headerin float:in.
-    Testaa toimivuus.
-    Jatka vastaavalla tavalla #content (alkaa taas vasemmalta:float), #content_left ja #content_right -osioden osalta ja määritä osioihin reunukset sekä taustaväri, jotta erottuvat taustasta. Kutsu koodissa tunnisteita.
-    Kirjoita osioiden sisälle tekstiä, muista marginaalit riittäviksi.
-    Määritä viimeiseksi #footer (alkaa vasemmalta), jonka korkeus on 30px, taustaväri harmaa, teksti keskitetty jne. Kutsu koodissa tunnistetta.
-    Muista, että content:in jälkeen float pitää resetoida, sillä muutoin sisältö valuu footerin päälle!
-    Kirjoita tekstiä alatunnisteeseen.
-    Tallenna index.html ja layout.css sekä testaa selaimilla.
-    Tarkista validaattorilla virheet pois. Voit ajaa myös CSS-validaattorin.
-    Voit kokeilla myös CSS3:n border-radius -ominaisuutta content_left ja content_right -osioiden kulmien pyöristykseen.
-
-<h1>AA4313</h1>
-
-<a href="index.html">Etusivu</a> | <a href="harrastukset.html">Harrastukset</a> | <a href="portfolio.html">Portfolio</a> | <a href="testaus.html">Testaus</a><BR><BR>
-<img src="AA4313.jpg" alt="AA4313 kuvaa ei saa kopioida"> <BR>
-
-<p>
-</p>
-
--page
---header
-----logo, keski, oikea
---/header päättyy
---menu eli navikointi
---content eli sisältö
-----content_left
-----content_right
---/content päättyy
---footer
--/page päättyy
-
--->
 
 </body>
 </html>  

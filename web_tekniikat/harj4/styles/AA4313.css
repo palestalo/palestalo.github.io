@@ -1,44 +1,89 @@
-﻿
+﻿/* tyylitiedosto AA4313 v.1 */
+
 body {
+background-color: light-grey;
 margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+#page {
+width:960px;
+height:600px;
+background-color: bisque;
+margin: 0 auto; 
+border: 2px dashed grey;
+}
+
+#header {
+width:960px;
+height:80px;
+background-color: azure;
+text-align:center;
+}
+
+#logo, #keski, #oikea{
+width:318px;
+height:50px;
+background-color: burlywood;
+float:left;
+text-aling:center;
+padding-top: 30px;
+}
+
+#logo {
+border: 1px solid grey;
+}
+
+#keski {
+border: 1px solid grey;
+}
+
+#oikea {
+border: 1px solid grey;
+}
+
+#menu {
+/*clear float !!!   */
+height:30px;
+
+}
+
+#content{
+background-color: light-blue;
+text-align:center;
+/* height:350px; */
+}
+
+#content_left{
+border: 1px solid grey;
+padding: 10px;
+border-radius: 25px;
+width:318px;
 background-color: white;
-center;font-family: Arial, Helvetica, sans-serif;
-text-align:center}
-
-.content {
-  ext-align: center;
-  max-width: 500px;
-  margin: auto;
-  background: powderblue;
-  padding: 10px;
-  p {color:blue;}
-}
-a:link {color: red;background-color: yellow}
-a:visited {  color: green;background-color: yellow}
-a:hover {color: hotpink;background-color: yellow}
-a:active {color: blue;background-color: yellow} 
-h1 {text-align: center;}
-h2 {text-align: center;color: #ff5050;}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  border-radius: 8px;
+float:left; 
+text-aling:center;
+padding-top: 30px;
+padding-left: 30px;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+#content_right{
+border: 1px solid grey;
+width:318px;
+padding: 10px;
+border-radius: 25px;
+background-color: white;
+float:right;
+padding-right: 30px;
+/* text-aling:center; */
+padding-top: 30px;
 }
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-a2cf{font-family:Arial, Helvetica, sans-serif !important;;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-wgsn{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;text-align:left;vertical-align:top}
-.tg .tg-gx32{font-family:Arial, Helvetica, sans-serif !important;;text-align:left;vertical-align:top}
-.tg .tg-cudy{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;;font-weight:bold;text-align:center;
-  vertical-align:top}
 
+#footer {
+width:960px;
+height:50px;
+background-color: yellow;
+margin: 0 auto; 
+border: 2px dashed grey;
+paddin 10 px;
+}
