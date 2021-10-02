@@ -1,0 +1,114 @@
+﻿/* tyylitiedosto AA4313 v.1 */
+* { margin: 0;} /*resetoi edelliset tyylit*/
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', font-size: 100%;
+/* background-color: light-grey;
+margin: 0;
+text-align:center; */
+
+}
+
+#page {
+max-width:90%;
+height:600px;
+background-color: yellow;
+margin: 0 auto; /* sivun keskitys */
+border: 2px dashed grey;
+}
+
+#header {
+/*max-width:90%;*/
+height:80px;
+background-color: #575757;
+text-color: #F0EBEB;
+text-align:center;
+font-size: 200%;
+padding: 1em;
+letter-spacing: 0.2em;
+}
+
+#nav, #footer {
+height: 1.875em;
+background-color: #E49A2F;
+text-color: #F7F5EE;
+text-align:center;
+}
+
+/* Horizontal nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 6px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: black;
+}
+.active {
+ background-color: red;
+}
+/* Horizontal nav bar */
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align: center;
+}
+
+li {
+ display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+#content{
+background-color: light-blue;
+text-align:center;
+/* height:350px; */
+}
+
+#content_left{
+border: 1px solid grey;
+padding: 10px;
+border-radius: 25px;
+width:318px;
+background-color: white;
+float:left; 
+text-aling:center;
+padding-top: 30px;
+padding-left: 30px;
+}
+
+#content_right{
+border: 1px solid grey;
+width:318px;
+padding: 10px;
+border-radius: 25px;
+background-color: white;
+float:right;
+padding-right: 30px;
+padding-top: 30px;
+/* text-aling:center; */
+}
